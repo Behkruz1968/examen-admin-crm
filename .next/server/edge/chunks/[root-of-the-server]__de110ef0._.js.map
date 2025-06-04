@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\n\nexport const middleware = (request: NextRequest) => {\n  const token = request.cookies.get(\"token\");\n  if (token) {\n    return NextResponse.next();\n  }\n  const loginUrl = new URL(\"/login\", request.url);\n  return NextResponse.redirect(loginUrl);\n};\n\nexport const config = {\n  matcher: \"/((?!api|_next/static|_next/image|favicon.ico|login|register).*)\",\n};\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEO,MAAM,aAAa,CAAC;IACzB,MAAM,QAAQ,QAAQ,OAAO,CAAC,GAAG,CAAC;IAClC,IAAI,OAAO;QACT,OAAO,6LAAA,CAAA,eAAY,CAAC,IAAI;IAC1B;IACA,MAAM,WAAW,IAAI,IAAI,UAAU,QAAQ,GAAG;IAC9C,OAAO,6LAAA,CAAA,eAAY,CAAC,QAAQ,CAAC;AAC/B;AAEO,MAAM,SAAS;IACpB,SAAS;AACX"}}]
+}

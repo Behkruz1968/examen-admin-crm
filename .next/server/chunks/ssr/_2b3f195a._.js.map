@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Hp/Downloads/admin-crm-master/admin-crm-master/app/%28dashboard%29/menagers/page.tsx"],"sourcesContent":["import {\n  dehydrate,\n  HydrationBoundary,\n  QueryClient,\n} from \"@tanstack/react-query\";\nimport { Myaxios } from \"@/request/axios\";\nimport TableComponent from \"@/components/table\";\n\nconst Managers = async () => {\n  const queryClient = new QueryClient();\n\n};\nexport default Managers;\n"],"names":[],"mappings":";;;AAAA;;AAQA,MAAM,WAAW;IACf,MAAM,cAAc,IAAI,6KAAA,CAAA,cAAW;AAErC;uCACe","debugId":null}}]
+}
