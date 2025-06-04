@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Hp/Downloads/admin-crm-master/admin-crm-master/app/%28dashboard%29/payment/page.tsx"],"sourcesContent":["// PaymentsPage.tsx\n\"use client\";\n\nimport { useQuery } from \"@tanstack/react-query\";\nimport { Table, TableHead, TableHeader, TableRow } from \"@/components/ui/table\";\nimport { Myaxios } from \"@/request/axios\";\nimport { PaymentsModal } from \"@/components/payment\";\n\n\nconst PaymentsPage = () => {\n \n\n  return (\n   <p>Payments</p>\n  );\n};\n\nexport default PaymentsPage;\n"],"names":[],"mappings":"AAAA,mBAAmB;;;;;AACnB;;AAQA,MAAM,eAAe;IAGnB,qBACC,6LAAC;kBAAE;;;;;;AAEN;KANM;uCAQS","debugId":null}}]
-}
